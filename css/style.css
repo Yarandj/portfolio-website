@@ -22,7 +22,6 @@ body {
   }
   
   .menu-link {
-    color: purple;
     display: inline;
     float: left;
     display: block;
@@ -36,21 +35,47 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #333;
   }
   
   .logo {
     background-color: #333;
+    width: 70px;
+    height: 70px;
   }
   
+  .socials {
+    color: white;
+    margin: 20px;
+  }
+
+  .socials img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .foto {
+    border-radius: 25px;
+    border: 10px solid #333;
+  }
+
+  .foto-learn {
+    width: 600px;
+    height: 500px;
+    border-radius: 25px;
+    border: 10px solid #333;
+  }
+
   p {
     color: white;
     text-align: left;
   }
   
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   
@@ -66,6 +91,8 @@ body {
   
   table {
     border-style: solid;
+    border-color: black;
+    background-color: #333;
   }
   
   footer a {
@@ -74,5 +101,13 @@ body {
   
   footer {
     margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
   }
   
