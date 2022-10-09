@@ -1,0 +1,146 @@
+body {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 15px;
+  }
+  
+  h1, h2 {
+    font-family: cursive;
+  }
+  
+  #container {
+    width: 80vw;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    font-size: 1.2em;
+  }
+  
+  .menu-link {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    background-color: #333;
+    border-right: 1px solid #bbb;;
+  }
+  
+  .navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+  }
+
+  .hero-image {
+    background-image: url(https://us.123rf.com/450wm/tirachard/tirachard1808/tirachard180800243/107075825-minimal-work-space-creative-flat-lay-photo-of-workspace-desk-top-view-office-desk-with-laptop-notebo.jpg?ver=6);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .logo {
+    background-color: #333;
+    width: 70px;
+    height: 70px;
+    display: flex;
+  }
+  
+  .socials {
+    color: white;
+    margin: 20px;
+  }
+  
+  .socials img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .birdbot-logo {
+    filter: invert(100%);
+  }
+  
+  .foto {
+    border-radius: 25px;
+    border: 10px solid #333;
+    display: flex;
+  }
+  
+  .foto-learn {
+    width: 600px;
+    height: 500px;
+    border-radius: 25px;
+    border: 10px solid #333;
+    margin-bottom: 50px;
+  }
+
+  .birdbot {
+    display: flex;
+    margin-top: 10px;
+    width: 200px;;
+    height: 350px;
+    border-radius: 25px;
+  }
+  
+  p {
+    color: white;
+    text-align: left;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: green;
+    background-color: #111;
+    text-decoration: none;
+  }
+
+  footer a {
+    color: black;
+  }
+  
+  footer {
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navigation-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .menu-link {
+      border-right: #333;
+    }
+  }
