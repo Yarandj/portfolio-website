@@ -10,16 +10,21 @@ h1, h2 {
   font-family: cursive;
 }
 
-#container {
-  width: 80vw;
+header {
+  width: 100%;
+  margin: 0;
+}
+
+main {
   max-width: 1200px;
   min-width: 300px;
-  margin: 0 auto;
 }
 
 .hero-image {
   background-image: url(https://us.123rf.com/450wm/tirachard/tirachard1808/tirachard180800243/107075825-minimal-work-space-creative-flat-lay-photo-of-workspace-desk-top-view-office-desk-with-laptop-notebo.jpg?ver=6);
   height: 30vh;
+  width: 100%;
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +42,7 @@ h1, h2 {
 
 .text-content {
   font-size: 1.2em;
+  margin-left: 20px;
 }
 
 .menu-link {
@@ -58,6 +64,9 @@ h1, h2 {
   overflow: hidden;
   background-color: #333;
   display: flex;
+
+  position: fixed;
+  top: 0;
 }
 
 .logo {
@@ -69,16 +78,19 @@ h1, h2 {
 
 .socials {
   color: white;
-  margin: 20px;
+  margin-inline: 5px;
 }
 
-.socials img {
+.insta {
+  margin-left: 10px;
   width: 20px;
   height: 20px;
 }
 
 .birdbot-logo {
   filter: invert(100%);
+  width: 20px;
+  height: 20px;
 }
 
 .foto {
@@ -144,5 +156,8 @@ footer {
   }
   .menu-link {
     border-right: #333;
+  }
+  .hero-image {
+    margin-top: 225px;
   }
 }
