@@ -6,7 +6,8 @@ body {
     font-size: 1.2em;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: cursive;
     font-size: 1.5em;
 }
@@ -105,13 +106,19 @@ main {
     margin-bottom: 50px;
 }
 
+.images {
+    display: flex;
+    align-items: flex-start;
+}
+
 .birdbot {
     display: flex;
     margin-top: 10px;
+    margin-bottom: 80px;
     width: 200px;
-    ;
     height: 350px;
     border-radius: 25px;
+    margin-inline: 10px;
 }
 
 p {
@@ -190,9 +197,11 @@ button {
     .menu-link {
         border-right: #333;
     }
+
     body {
         font-size: 1em;
     }
+
     #container {
         margin-right: 20px;
     }
